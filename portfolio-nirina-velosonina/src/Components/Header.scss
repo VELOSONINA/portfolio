@@ -1,12 +1,15 @@
-@media (max-width: 992px) {
+@use "/src/Styles/Variables.scss";
+
+@media (max-width: 992px){
     .nav-item {
          display: none; 
-     }
- }
- .dropdown-menu {
+    }
+}
+ 
+.dropdown-menu {
     z-index: 99; 
     position: absolute; 
     inset: 0px auto auto 0px; 
     margin: 0px; 
     transform: translate3d(533px, 69px, 0px);
- }
+}
