@@ -1,0 +1,11 @@
+@use "/src/Styles/variables.scss";
+
+.footer {
+    .row {
+        width: 100%;
+        background-color: $blue-dark-bgcolor;
+    }
+    p, ul{
+        color: #f2f5f7;
+    }
+}
