@@ -1,4 +1,4 @@
-@use "/src/Styles/variables.scss";
+@use "/src/assets/Styles/variables.scss";
 
 .footer {
     .row {
@@ -7,5 +7,11 @@
     }
     p, ul{
         color: #f2f5f7;
+    }
+}
+@media (max-width: 992px){
+    .row {
+        display: block;
+        margin-left: initial;
     }
 }
