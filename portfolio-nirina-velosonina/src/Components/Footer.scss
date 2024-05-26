@@ -1,6 +1,9 @@
 @use "/src/assets/Styles/variables.scss";
 
 .footer {
+   
+    padding: initial;
+    
     .row {
         width: 100%;
         background-color: $blue-dark-bgcolor;
@@ -9,9 +12,17 @@
         color: #f2f5f7;
     }
 }
+
 @media (max-width: 992px){
     .row {
         display: block;
-        margin-left: initial;
+        margin: initial;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: block;
+        margin: initial;
     }
 }
