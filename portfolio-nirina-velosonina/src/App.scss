@@ -1,3 +1,14 @@
+// Importation de Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Importation des variables et styles
 @import './assets/Styles/variables.scss';
+
+// Importation des composants
 @import './Components/Header.scss';
 @import './Components/Footer.scss';
+
+// Importation des utilitaires et autres composants
+@import "./Components/Containers/HomeContainers/HomeContainer.scss";
+@import "./Components/Containers/Utils/CarouselComponent.scss";
+@import "./Components/Containers/Utils/Projets.scss";
