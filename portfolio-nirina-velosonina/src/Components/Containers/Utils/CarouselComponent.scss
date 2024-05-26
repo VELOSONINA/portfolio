@@ -1,0 +1,39 @@
+@use "/src/assets/Styles/variables.scss";
+$carouselHeight : 300px;
+$carouselHeight768 : 200px;
+
+.carousel {
+       margin: auto;
+       height: $carouselHeight !important;
+
+    .carousel-inner {
+        height: 0;
+        padding-bottom: 25%;
+
+        .carousel-item{
+            position: absolute !important;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            img.w-100 {
+                height: $carouselHeight; 
+                object-fit: cover;
+            }
+        }
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        height: $carouselHeight768 !important;
+        .carousel-inner {
+            .carousel-item{
+                img.w-100 {
+                    height: $carouselHeight768; 
+                }
+            }
+        }    
+    }
+}
