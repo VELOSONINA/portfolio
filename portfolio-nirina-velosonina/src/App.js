@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'; 
+import { Provider } from 'react-redux';
+import store from './Store';
 import Header from './Components/Header';
 import RoutesTree from './Components/RoutesTree';
 import Footer from './Components/Footer';
@@ -9,13 +11,15 @@ import './App.scss';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="app-root">
-        <Header/>
-        <RoutesTree/>
-        <Footer/>
-      </div>
-    </BrowserRouter> 
+    <Provider store={store}>
+      <BrowserRouter>
+        <div className="app-root">
+          <Header/>
+          <RoutesTree/>
+          <Footer/>
+        </div>
+      </BrowserRouter> 
+    </Provider>
   );
 }
 
