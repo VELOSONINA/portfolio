@@ -20,7 +20,7 @@ const Skills = () => {
       <div className="row justify-content-center align-items-center">
         <div className="col-lg-10 col-md-8 col-sm-6">
           <h2 className="text-center my-5">Skills</h2>
-          <p className="lead">Je trouve plaisir à plonger dans et à apprendre de nouvelles choses. Voici une liste des technologies avec lesquelles j'ai travaillé.</p>
+          <p className="lead">Je trouve plaisir à plonger dans l'avenir et à apprendre de nouvelles choses. Voici une liste des technologies avec lesquelles j'ai travaillé.</p>
           <div className="d-flex flex-wrap justify-content-around mt-5">
             {skills.map(skill => (
               <div key={skill} className="card m-2 shadow-sm">

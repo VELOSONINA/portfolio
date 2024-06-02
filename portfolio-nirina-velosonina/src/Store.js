@@ -1,9 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import rootReducer from './Reducers/Reducers'; 
+import portfolioReducer from './features/portfolioSlice';
 
-const store = configureStore({
-  reducer: rootReducer,
-
+export const store = configureStore({
+  reducer: {
+    portfolio: portfolioReducer,
+  },
 });
-
-export default store;
