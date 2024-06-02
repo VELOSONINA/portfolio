@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/portfolio-nirina-velosonina/build/static/css/main.8dd00f25.css",
+    "main.js": "/portfolio/portfolio-nirina-velosonina/build/static/js/main.d99c8e3e.js",
+    "static/js/453.fc193abc.chunk.js": "/portfolio/portfolio-nirina-velosonina/build/static/js/453.fc193abc.chunk.js",
+    "index.html": "/portfolio/portfolio-nirina-velosonina/build/index.html",
+    "main.8dd00f25.css.map": "/portfolio/portfolio-nirina-velosonina/build/static/css/main.8dd00f25.css.map",
+    "main.d99c8e3e.js.map": "/portfolio/portfolio-nirina-velosonina/build/static/js/main.d99c8e3e.js.map",
+    "453.fc193abc.chunk.js.map": "/portfolio/portfolio-nirina-velosonina/build/static/js/453.fc193abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dd00f25.css",
+    "static/js/main.d99c8e3e.js"
+  ]
+}
